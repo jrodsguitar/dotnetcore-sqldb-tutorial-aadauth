@@ -1,0 +1,10 @@
+C:\Users\dajose\dotnetcore-sqldb-tutorial\bin\Debug\netcoreapp2.0\DotNetCoreSqlDb.deps.json
+C:\Users\dajose\dotnetcore-sqldb-tutorial\bin\Debug\netcoreapp2.0\DotNetCoreSqlDb.runtimeconfig.json
+C:\Users\dajose\dotnetcore-sqldb-tutorial\bin\Debug\netcoreapp2.0\DotNetCoreSqlDb.runtimeconfig.dev.json
+C:\Users\dajose\dotnetcore-sqldb-tutorial\bin\Debug\netcoreapp2.0\DotNetCoreSqlDb.dll
+C:\Users\dajose\dotnetcore-sqldb-tutorial\bin\Debug\netcoreapp2.0\DotNetCoreSqlDb.pdb
+C:\Users\dajose\dotnetcore-sqldb-tutorial\obj\Debug\netcoreapp2.0\DotNetCoreSqlDb.csproj.CoreCompileInputs.cache
+C:\Users\dajose\dotnetcore-sqldb-tutorial\obj\Debug\netcoreapp2.0\DotNetCoreSqlDb.AssemblyInfoInputs.cache
+C:\Users\dajose\dotnetcore-sqldb-tutorial\obj\Debug\netcoreapp2.0\DotNetCoreSqlDb.AssemblyInfo.cs
+C:\Users\dajose\dotnetcore-sqldb-tutorial\obj\Debug\netcoreapp2.0\DotNetCoreSqlDb.dll
+C:\Users\dajose\dotnetcore-sqldb-tutorial\obj\Debug\netcoreapp2.0\DotNetCoreSqlDb.pdb
