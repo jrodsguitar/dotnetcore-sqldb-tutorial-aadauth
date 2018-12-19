@@ -6,7 +6,8 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
-using DotNetAppSqlDb.Models;using System.Diagnostics;
+using DotNetAppSqlDb.Models;
+using System.Diagnostics;
 
 namespace DotNetAppSqlDb.Controllers
 {
@@ -16,7 +17,7 @@ namespace DotNetAppSqlDb.Controllers
 
         // GET: Todos
         public ActionResult Index()
-        {            
+        {
             Trace.WriteLine("GET /Todos/Index");
             return View(db.Todoes.ToList());
         }
@@ -49,7 +50,7 @@ namespace DotNetAppSqlDb.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Description,CreatedDate")] Todo todo)
+        public ActionResult Create([Bind(Include = "Description,CreatedDate,Done")] Todo todo)
         {
             Trace.WriteLine("POST /Todos/Create");
             if (ModelState.IsValid)
