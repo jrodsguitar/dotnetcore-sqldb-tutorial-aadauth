@@ -4,14 +4,14 @@ platforms: dotnet
 author: cephalin
 ---
 
-# .NET Core MVC sample for Azure App Service
+# ASP.NET and SQL Database sample for Azure App Service
 
 This is a sample application that you can use to follow along with the tutorial at 
-[Build a .NET Core and SQL Database web app in Azure Web Apps for Containers](https://docs.microsoft.com/azure/app-service/containers/tutorial-dotnetcore-sqldb-app). 
+[Create an ASP.NET app in Azure with SQL Database](https://docs.microsoft.com/en-us/azure/app-service-web/app-service-web-tutorial-dotnet-sqldatabase/). 
 
 ## License
 
-See [LICENSE](LICENSE.md).
+See [LICENSE](LICENSE).
 
 ## Contributing
 
