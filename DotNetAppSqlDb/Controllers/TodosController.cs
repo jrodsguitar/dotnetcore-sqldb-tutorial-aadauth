@@ -86,7 +86,7 @@ namespace DotNetAppSqlDb.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "id,Description,CreatedDate")] Todo todo)
+        public ActionResult Edit([Bind(Include = "id,Description,CreatedDate,Done")] Todo todo)
         {
             Trace.WriteLine("POST /Todos/Edit/" + todo.ID);
             if (ModelState.IsValid)
