@@ -19,10 +19,7 @@ namespace DotNetAppSqlDb.Controllers
         public ActionResult Index()
         {
             Trace.WriteLine("GET /Todos/Index");
-            var test = (from n in db.Todoes orderby n.Description ascending select n);
-
-            
-            return View(test.ToList());
+            return View(db.Todoes.ToList());
         }
 
         // GET: Todos/Details/5
