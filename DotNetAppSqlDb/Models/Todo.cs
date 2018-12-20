@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
+
 namespace DotNetAppSqlDb.Models
 {
     public class Todo
